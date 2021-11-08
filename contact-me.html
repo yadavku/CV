@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p>My address :- D4,1004 tulip petals society</p>
+    <p>8826488086</p>
+    <p>k.yadav199@gmail.com</p>
+    <hr>
+    <form action="mailto:k.yadav199@gmail" method="post" enctype="text/plain">  <!--change action to sent email,encrypt type to text/plain to remove any unwanted char from email body like %20% etc -->
+      <label for="">Your Name:</label>
+      <input type="text" name="yourname" value=""><br>   <!--this name=yourname will show in email body to distinguish the different fields. -->
+      <label for="">Your Email please:</label>
+      <input type="email" name="youremail" value=""><br>
+      <label for="">Your Message:</label>
+      <textarea name="yourmessage" rows="10" cols="30"></textarea><br>  <!-- this message dimensions can be change by form filler but default or minimum is 10X30 set by developer-->
+      <input type="submit">
+
+    </form>
+  </body>
+</html>
